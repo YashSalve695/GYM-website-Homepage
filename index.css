@@ -1,0 +1,126 @@
+body {
+    font-family: 'Baloo Bhai', cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('img/image.jpg.jfif');
+    /* For background image folder name and its path  */
+
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 32px;
+    top: 20px;
+    display: inline-block;
+    /* border: 2px solid red; */
+}
+
+.mid {
+    /* margin: 20px; */
+    display: block;
+    width: 55%;
+    margin: 20px auto;
+    /* For any div to be in mid than do margin auto */
+    /* THREE CONDITION for make any object on mid 
+    1. display block
+    2. select width
+    3. margin auto */
+    /* border: 2px solid red; */
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+    /* border: 2px solid red; */
+}
+
+.navbar {
+    display: inline-block;
+    /* inline block help us to stay in line 
+      and we can customize its height and width  */
+
+}
+
+.navbar li {
+    display: inline-block;
+    /* font-size: 0px; */
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+    /* padding is helpful to add gap or distance in div*/
+}
+
+/*  */
+.navbar li a:hover,
+.navbar li a:active {
+    text-decoration: underline;
+    color: grey;
+}
+
+.left img {
+    width: 136px;
+}
+
+/* To make div sentence in center */
+.left div {
+    text-align: center;
+    line-height: 19px;
+    font-size: 26px;
+}
+
+.btn {
+    margin: 5px 5px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Baloo bhai', cursive;
+}
+
+.btn:hover {
+    background-color: grey;
+}
+
+.btnsubmit {
+    cursor: pointer;
+    font-family: 'Baloo bhai', cursive;
+    border: 2px solid grey;
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto;
+    width: 74%;
+}
+
+
+.container {
+    /* border: 2px solid rgb(187, 202, 187); */
+    margin: 106px 80px;
+    padding: 75px;
+    width: 45%;
+    border-radius: 28px; 
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.formgroup input {
+    font-family: 'Baloo bhai', cursive;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 8px;
+    display: block;
+    width: 508px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+}
